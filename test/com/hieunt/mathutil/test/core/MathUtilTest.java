@@ -95,7 +95,7 @@ public class MathUtilTest {
     //Test case: hàm sẽ ném về ngoại lệ nếu nhận vào 21
     //tui cần thấy màu xanh khi chơi với 21!
     
-    @Test//(expected = IllegalArgumentException.class)
+    @Test(expected = IllegalArgumentException.class)
     public void testGetFactorialGivenWrongArgumentThrowEception_LambdaVersion() {
 //        Assert.assertThrows(tham số 1: loại ngoại lệ muốn so sánh 
 //                            tham số 2: đoạn code chạy văng ra ngoại lệ runnable)
